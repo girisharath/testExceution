@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 33.093 s <<< FAILURE! - in TestSuite
+test1(docker.parallelexecution)  Time elapsed: 7.727 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at docker.parallelexecution.test1(parallelexecution.java:33)
+
